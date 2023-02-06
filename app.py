@@ -13,7 +13,7 @@ app = Flask(__name__, template_folder='templates', static_folder='Static')
 def index():
     return render_template('index.html')
 
-
+model=torch.load("wd.pt")
 model.eval()
 
 def pre_process_image(img):
