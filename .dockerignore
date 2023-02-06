@@ -1,0 +1,9 @@
+Dockerfile
+*.pyc
+*.pyo
+*.pyd
+__pycachhe__
+.pytest_cache
+.idea
+env
+Procfile
