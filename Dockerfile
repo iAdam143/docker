@@ -6,7 +6,7 @@ FROM python:3.10-slim
 ENV PYTHONUNBUFFERED True
 
 #set environment variables
-ENV PORT 80
+ENV PORT 5000
 
 # Copy local code to the container image.
 ENV APP_HOME /app
