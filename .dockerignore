@@ -1,4 +1,3 @@
-Dockerfile
 *.pyc
 *.pyo
 *.pyd
